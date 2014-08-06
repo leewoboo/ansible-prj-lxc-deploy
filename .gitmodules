@@ -1,0 +1,15 @@
+[submodule "roles/ansible-role-tor-basic"]
+	path = roles/ansible-role-tor-basic
+	url = https://github.com/leewoboo/ansible-role-tor-basic
+[submodule "roles/ansible-role-ferm-basic"]
+	path = roles/ansible-role-ferm-basic
+	url = https://github.com/leewoboo/ansible-role-ferm-basic
+[submodule "roles/ansible-role-ferm-tor"]
+	path = roles/ansible-role-ferm-tor
+	url = https://github.com/leewoboo/ansible-role-ferm-tor
+[submodule "roles/ansible-role-ferm-route-lxc-through-host-tor"]
+	path = roles/ansible-role-ferm-route-lxc-through-host-tor
+	url = https://github.com/leewoboo/ansible-role-ferm-route-lxc-through-host-tor
+[submodule "roles/ansible-role-lxc-deploy"]
+	path = roles/ansible-role-lxc-deploy
+	url = https://github.com/leewoboo/ansible-role-lxc-deploy

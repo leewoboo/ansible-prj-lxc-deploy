@@ -1,0 +1,17 @@
+- hosts: localhost
+
+  roles:
+
+    - { role: ansible-role-tor-basic
+      }
+    - { role: ansible-role-ferm-basic
+      } 
+    - { role: ansible-role-ferm-tor
+      }
+    - { role: ansible-role-ferm-route-lxc-through-host-tor
+      }
+    - { role: ansible-role-lxc-deploy,
+        container_address: "172.16.0.2",
+        container_name: "debianwheezy",
+      }
+

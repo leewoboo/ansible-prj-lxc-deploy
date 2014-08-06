@@ -1,0 +1,6 @@
+[localhost]
+localhost           ansible_connection=local
+
+# run with
+# ansible-playbook -i hosts playbook.yml  --ask-sudo-pass -v
+
